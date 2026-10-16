@@ -1,0 +1,36 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.card{
+
+    background-color: rgb(70, 70, 59);
+    background-image: url('./img/coders.avif');
+    color : white;
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+    border: 5px solid aqua;
+}
+
+body{
+    background-color: orchid;
+}
+
+.h1, h3{
+    border-bottom: 5px solid aqua;
+}
+
+
+.spinner{
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
